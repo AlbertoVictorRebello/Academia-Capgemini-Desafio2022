@@ -1,7 +1,7 @@
 ![image info](https://capgemini.proway.com.br/assets/img/logo-capgemini.png)
 
 
-# Desafio de programação
+# Desafio de programação 2022
 Este repositório guarda os códigos desenvolvidos na linguagem de programação [JAVA](https://www.java.com/pt-BR/) propostos pela Academia Capgemini dentro da terceira etapa do processo de seleção 2022.
 
 O objetivo dessa etapa é testar os seus conhecimentos em lógica de programação. Para isso, foram preparadas três questões com diferentes níveis de dificuldade.
@@ -69,5 +69,11 @@ Process finished with exit code 0
   Foram incluídos testes unitários para cada uma das soluções propostas para o desafio.
 
 ### Instruções de execução:
-Os códigos de cada questão foram desenvolvidos em classes separadas, nomeadas como "Question01", "Question02" e "Question03".
+Os códigos de cada questão foram desenvolvidos em classes separadas, nomeadas como "Question01", "Question02" e "Question03" no pacote /src/main/java.
+Os códigos de testes desenvolvidos em classes separadas, nomeadas como "Question01Test", "Question02Test" e "Question03Test" no pacote /src/test/java.
+Todos os códigos habilitam a entrada via entrada do usuário.
+A questão 2 solicitou apenas a validação do comprimento da senha. Adicionalmente foi incluído um método que permite a validação completa das políticas informadas no desafio. Para ter acesso à ela é necessário instanciar um objeto da classe Question02 e invocar o método cuja assinatura pública é:
+
+``` public static boolean verifyAllPasswordPolicies(String password) ```
+
 Para executar cada um dos códigos basta fazer o download ou clonar o projeto para um diretório local. Sua execução poderá ser feita na IDE de sua preferência.
